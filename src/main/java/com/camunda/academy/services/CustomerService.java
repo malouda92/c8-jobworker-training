@@ -20,16 +20,16 @@ public class CustomerService {
 	 * @param amount
 	 * @return the open order amount
 	 */
-	public Double deductCredit(Double customerCredit, Double amount) {
-		
+	public Double deductCredit(String customerId, Double amount) {
+		Double credit = getCustomerCredit(customerId);
 		Double openAmount;
 		Double deductedCredit;
-		if (customerCredit > amount) {
+		if (credit > amount) {
 			deductedCredit = amount;
 			openAmount = 0.0;
 		} else {
-			openAmount = amount - customerCredit;
-			deductedCredit = customerCredit;
+			openAmount = amount - credit;
+			deductedCredit = credit;
 		}
 		System.out.printf("charged %f from the credit, open amount is %f %s", deductedCredit, openAmount, System.lineSeparator());
 		return openAmount;
