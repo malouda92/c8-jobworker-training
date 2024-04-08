@@ -1,0 +1,14 @@
+# IDE-specific files
+.vscode/
+*.iml
+.idea/
+
+# Build
+target/
+bin/
+
+# Operating system
+.DS_Store
+
+# Project
+src/main/resources/*
