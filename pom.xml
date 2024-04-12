@@ -24,11 +24,11 @@
 	</dependencyManagement>
 
 	<dependencies>
-		<!-- UPDATE SPRING CLIENT DEPENDENCIES HERE!-->
+		<!-- UPDATE SPRING ZEEBE DEPENDENCIES HERE!-->
 		<dependency>
-			<groupId>io.camunda.spring</groupId>
-			<artifactId>spring-boot-starter-camunda</artifactId>
-			<version>8.5.0-rc2</version>
+			<groupId>io.camunda</groupId>
+			<artifactId>spring-boot-starter-camunda-sdk</artifactId>
+			<version>8.5.0</version>
 		</dependency>
 	</dependencies>
 	<build>
