@@ -1,7 +1,8 @@
-## Template for the Camunda 8 for developers training with Spring
+## Template for the Camunda 8 for Developers Training with Spring
 
-This is your starting point for the Camunda 8 for developers training, if you choose to use the Camunda Spring Client.
+This is your starting point for the Camunda 8 for Developers training.
 
 ## Prerequisites
 
-You should have installed in your machine Java v. 17, and possibly use a Java IDE with maven.
+- JDK 17 or higher
+- A Java capable IDE such as IntelliJ IDEA or Eclipse (with Maven)
