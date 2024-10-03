@@ -7,14 +7,14 @@ This is your starting point for the Camunda 8 for Developers training.
 - JDK 17 or higher
 - A Java capable IDE such as IntelliJ IDEA or Eclipse (with Maven)
 
-## Testing the Project
+## Preparation steps
 
 Verify that the project builds your local development environment by following these steps:
 
 1. **Verify JDK Version**
 
    Make sure JDK 17 or higher is installed on your machine:
-java -version
+`java -version`
 
 
 2. **Clone and Import the Project**
