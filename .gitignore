@@ -12,3 +12,5 @@ bin/
 
 # Project
 src/main/resources/*
+
+.env
