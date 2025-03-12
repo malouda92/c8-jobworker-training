@@ -2,7 +2,7 @@ camunda:
   client:
     mode: saas
     auth:
-      client-id: ${CLIENT_ID}
-      client-secret: ${CLIENT_SECRET}
-    cluster-id: ${CLUSTER_ID}
-    region: ${REGION}
+      client-id: OQbLfTeJFkGu9ctz-sW1OqnhAiHzvSZn
+      client-secret: sCfUelMESg1pJxFbj3dmoaBQPjgh0QWiBu7R1qBiAXi90E3C33yLoTgtot0YCd8.
+    cluster-id: 2e1ff459-13c9-4a8c-ab1a-cd75b3148e10
+    region: ont-1
